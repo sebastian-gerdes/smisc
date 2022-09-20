@@ -17,3 +17,6 @@ absolute humidity contained in 1 m^3 in l
 \description{
 Calculate the absolute humidity in 1 m^3 dependence of the temperature and the relative humidity
 }
+\examples{
+absolute_humidity(20, 50)
+}
