@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
+code_snippets.Rmd
+code_snippets.html
+build_process.R

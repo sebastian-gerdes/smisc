@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 build_process.R
+code_snippets.Rmd
+code_snippets.html
+.DS_Store
