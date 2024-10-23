@@ -4,18 +4,24 @@
 \alias{diff_water}
 \title{Calculate the difference in wawter volume given temperature and humidity inside and outside}
 \usage{
-diff_water(T_out, h_out, T_in, h_in, volume = 300)
+diff_water(
+  temperature_outside,
+  relative_humidity_outside,
+  temperature_inside,
+  relative_humidity_inside,
+  volume = 300
+)
 }
 \arguments{
-\item{T_out}{temperature outside in degress celsius}
+\item{temperature_outside}{temperature outside in degress celsius}
 
-\item{h_out}{relative humidity inside in percent}
+\item{relative_humidity_outside}{relative humidity outside in percent}
 
-\item{T_in}{temperature inside in degress celsius}
+\item{temperature_inside}{temperature inside in degress celsius}
 
-\item{h_in}{relative humidity outside in percent}
+\item{relative_humidity_inside}{relative humidity inside in percent}
 
-\item{volume}{Volume that is exchanged}
+\item{volume}{Volume in cubic meters that is exchanged}
 }
 \value{
 difference in water content before and after changing the air
